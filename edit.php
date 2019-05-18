@@ -30,7 +30,7 @@ foreach($data->date as $date){
 <input type = "hidden" name = "id" value="<?php echo $date->id; ?>"> 
 Nume: <br>
 <input type = "text" name = "Nume" value="<?php echo $date->Nume; ?>"> <br><br>
-TIP: <br>
+Batalii: <br>
 <input type = "text" name = "Batalii" value="<?php echo $date->Batalii; ?>"> <br><br>
 Imagine:<br>
 <input type="file" name="image" value="<?php echo $date->Imagine; ?>"><br><br>
